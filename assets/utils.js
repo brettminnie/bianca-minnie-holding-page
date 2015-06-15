@@ -11,6 +11,7 @@ $(function() {
         };
 
         var element = $('#bianca-minnie-background');
+        var overlay = $('#bianca-minnie-background #overlay')
 
         element.css('margin-top', $viewPortParams.margin.y);
 
@@ -22,6 +23,8 @@ $(function() {
             return parseInt(($viewPortParams.height/20)*18);
         });
 
+        overlay.css('top', parseInt(element.height() - overlay.height()));
+        overlay.css('left', parseInt(element.width() - overlay.width()));
     }
 
     resizePlaceHolder();

@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 0 0 0 ;
 }
 
@@ -10,8 +10,9 @@ div#bianca-minnie-background {
 }
 
 div#bianca-minnie-background div#overlay {
-    float:right;
     padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
 }
 
 div#bianca-minnie-background div#overlay ul, a {

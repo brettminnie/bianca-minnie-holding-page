@@ -13,6 +13,7 @@ div#bianca-minnie-background div#overlay {
     padding-right: 10px;
     padding-top: 10px;
     position: absolute;
+    text-shadow: 1px 1px #000;
 }
 
 div#bianca-minnie-background div#overlay ul, a {
